@@ -1,0 +1,17 @@
+.nav-bar-left {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav>a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+li>a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
