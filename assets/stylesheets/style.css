@@ -1,9 +1,11 @@
 .nav-bar-left {
   float: left;
+  width: 200px;
 }
 
 nav {
   float: right;
+  width: 44%;
 }
 
 .clear-float {
@@ -36,8 +38,9 @@ body{
 
 
 section.top-section {
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
+  margin-bottom: 10%;
 }
 
 section.top-section h1 {
@@ -80,21 +83,65 @@ section.top-section  h3 {
   width: 90%;
   background-color:#ffffff;
 }
- ul a {
-   float: right;
+.top-main>ul  {
+  float: left;
+  width: 30%;
+}
+.top-main>ul li {
+display: inline;
+   margin-right:2%; 
+   font-family: SourceSerifPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #24292c;
+ }
+ .top-main>ul+ul{
+  width: 60%;
+    float: right;
+    margin-right: 0px;
+    text-align: right;
+ }
+ .top-main>ul+ul li{
+   display: inline-block;
+   margin-right: 2%;
+   font-family: SourceSerifPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #24292c;
  }
 
 .top-main{
-  height: 100px;
+  margin: 5% 1.7% 3.4% 1.7%;
+ 
   width: 100%;
 }
 
+.top-main>ul+ul>li:first-child a{
+  font-family: SourceSerifPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #c2327f;
+ 
+}
 .box{
   width: 30%;
   margin: 1.6%;
   height: 338.32px;
   background-color: #ffffff;
-  box-shadow: 0 4px 2px -2px gray;
+  -webkit-box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+   box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
 
 }
 .content{
@@ -106,4 +153,55 @@ section.top-section  h3 {
 .box>img {
   width: 100%;
 }
+header{
+  margin: 2% 5%;
+}
+.nav-bar-left span{
+  font-family: SourceSerifPro;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 2%;
+}
+nav a{
+  font-family: SourceSerifPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8798a4;
+  margin-left: 10%;
+} 
+.active{
+  color: #ffffff;
+}
+nav > a+a+a+a+a {
+  font-size: 26px;
+  color: #383f43;
+}
+nav a img{
+  margin-bottom: -1%;
+}
+.soon{
+  font-size: 11px;
+  line-height: 1.09;
+  color: #c2327f;
+}
 
+.muted{
+  font-family: SourceSerifPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: right;
+  color: #bdbebf;
+}
