@@ -22,18 +22,17 @@ li>a {
   color: #1e1e1e;
 }
 
-body{
-  box-sizing: border-box;
- 
-  width: 100%;
-  background:url("../images/background-image.png");
+html {height: 100%;
 
-
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: 100%;
-
-
+}
+body {
+    margin: 0px;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    background:url("../images/background-image1.png") top center no-repeat, #f2f5f7;
+    height: 100%;
+    background-size: 100%;
 }
 
 
@@ -247,7 +246,7 @@ font-family: SourceSerifPro;
   letter-spacing: normal;
   color: #8798a4;
   display: inline-block;
-  margin-left: 3%;
+  margin-left: 4%;
  }
 
 
@@ -268,8 +267,48 @@ font-family: SourceSerifPro;
 
 hr {
   border: solid 1px #e5e7e9;
+  margin: 9% auto;
 }
 
 img.ratings {
   vertical-align: text-top;
 }
+
+.avatar{
+  z-index: 4;
+  position: relative;
+  vertical-align: text-top;
+}
+
+.avatar1{
+  z-index: 3;
+  margin-left: -8%;
+  position: relative;
+  vertical-align: text-top;
+}
+.avatar2{
+  z-index: 2;
+  margin-left: -8%;
+  position: relative;
+  vertical-align: text-top;
+}
+.avatar3{
+  z-index: 1;
+  margin-left: -8%;
+  position: relative;
+  vertical-align: text-top;
+}
+
+/* .shape{
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+.bottom-background{
+  width: 1600px;
+ height: 432px;
+ 
+  transform: rotate(-180deg);
+  background-image: linear-gradient(86deg, #0b0e2d, #0b0414);
+  
+} */
